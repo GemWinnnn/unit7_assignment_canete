@@ -19,8 +19,8 @@ class _About_MeState extends State<About_Me> {
           title: Text("About Me"),
           bottom: const TabBar(
             tabs: [
-              Tab(icon: Icon(Icons.info), text: "Tab 1"),
-              Tab(icon: Icon(Icons.person), text: "Tab 2"),
+              Tab(icon: Icon(Icons.info)),
+              Tab(icon: Icon(Icons.person)),
             ],
           ),
         ),
